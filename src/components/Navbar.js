@@ -9,7 +9,7 @@ export default function navbar(props) {
         <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
   <div className="container-fluid">
     {/* <Link className="navbar-brand"  to="/">{props.title}</Link> */}
-    <a className="nav-link active" aria-current="page"  href="#" mx-16>Home</a> 
+    <a className="nav-link active" aria-current="page"  href="#" mx-16>textutils</a> 
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
